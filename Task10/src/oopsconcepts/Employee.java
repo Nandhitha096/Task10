@@ -2,6 +2,8 @@ package oopsconcepts;
 
 import java.util.Scanner;
 
+//Creating class Employee with the given data members
+
 public class Employee {
 	
 	static int id;
@@ -11,50 +13,69 @@ public class Employee {
 	static String name;
 	static int salary;
 	
+	//setter method for ID
+	
 	public void setID(int i)
 	{
 		id=i;
 	}
+	//getter method for ID
 	
 	public int getID()
 	{
 		return id;
 	}
 	
+	//setter method for FirstName
+	
 	public void setFirstName(String n)
 	{
 		firstname=n;
 	}
+	
+	//getter method for FirstName
 	
 	public String getFirstName()
 	{
 		return firstname;
 	}
 	
+	//setter method for LastName
+	
 	public void setLastName(String n1)
 	{
 		lastname=n1;
 	}
+	
+	//getter method for LastName
 	
 	public String getLastName()
 	{
 		return lastname;
 	}
 	
+	//setter method for salary
+	
 	public void setSalary(int s)
 	{
 		salary=s;
 	}
+	
+	//getter method for salary
 	
 	public int getSalary()
 	{
 		return salary;
 	}
 	
+	//Concatenating FirstName and LastName
+	
 	public String getName()
 	{
 		return firstname+" "+lastname;
 	}
+	
+	//Method to calculate annual salary
 	
 	public int getAnnualSalary()
 	{
@@ -62,12 +83,17 @@ public class Employee {
 		return annual_salary;
 	}
 	
+	//Method to increase salary
+	
 	public int getRaiseSalary()
 	{
 		int sum=(salary*n)/100;  //salary increase by 40%
 		int raise_salary=salary+sum;
 		return raise_salary;
 	}
+	
+	
+	//to return string representation 
 	
 	public String toString()
 	{
@@ -96,17 +122,11 @@ public class Employee {
 		salary=sc3.nextInt();
 		System.out.println();
 		
-		System.out.println("DEnter the percentage of salary raise for the employee");
+		System.out.println("Enter the percentage of salary raise for the employee");
 		Scanner sc4=new Scanner(System.in);
 		n=sc4.nextInt();
 			
-		//System.out.println(emp.getID());
-		//System.out.println(emp.getFirstName());
-		//System.out.println(emp.getLastName());
-		//System.out.println(emp.getName());
-		//System.out.println(emp.getSalary());
-		//System.out.println(emp.getAnnualSalary());
-		//System.out.println(emp.getRaiseSalary());
+		//printing the salary and incremented salary
 		
 		System.out.println(emp.toString());
 		System.out.println();
