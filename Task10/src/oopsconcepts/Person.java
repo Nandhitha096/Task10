@@ -1,3 +1,7 @@
+/* Q1. Create a class called "Person" with attributes "name" and "age". Also create a constructor and 
+       getter methods for the attributes.
+ */
+
 package oopsconcepts;
 
 

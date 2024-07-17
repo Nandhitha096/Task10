@@ -1,3 +1,8 @@
+/* Q4. Create a class Account class with all necessary parameters as data member. Create two
+       constructors (no argument, and two arguments) and methods to withdraw and deposit
+       balance and check balance
+ */
+
 package oopsconcepts;
 
 import java.util.Scanner;

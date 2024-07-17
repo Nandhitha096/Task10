@@ -1,3 +1,9 @@
+/* Q2. From the below image, Create an implementation for a java class named Employee that
+       represents an employee with attributes including ID, name, salary. The class includes
+       a method called raiseSalary(percent), which updates the salary by a specified percentage.
+
+ */
+
 package oopsconcepts;
 
 import java.util.Scanner;
